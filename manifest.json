@@ -2,7 +2,7 @@
   "name": "MEU Timișoara 2026",
   "short_name": "MEU TM",
   "description": "Model European Union Timișoara 2026 — 25–29 Martie, Universitatea de Vest",
-  "start_url": "/index.html",
+  "start_url": "/meu-timisoara-participants",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#001040",
