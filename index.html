@@ -1631,6 +1631,7 @@ Timiș County Youth Foundation (FITT)">FITT</div>
 
     <div class="viz-layout">
       <div class="viz-main">
+		  <div id="fp-floor-tabs"></div>
         <div id="fp-outer" style="overflow-x:auto;background:white;border:1px solid var(--border);border-radius:var(--radius-lg);padding:.85rem .85rem .5rem">
           <div id="fp-container" style="min-width:380px"></div>
         </div>
@@ -1658,7 +1659,245 @@ Timiș County Youth Foundation (FITT)">FITT</div>
         <p class="group-panel-hint t" data-ro="Apasă pe o cameră" data-en="Click on a room">Apasă pe o cameră</p>
       </div>
     </div>
+<!-- ═══════════════════════════════════════════════════
+     NOTE INFORMATIVE CAMELIA
+     ═══════════════════════════════════════════════════ -->
+<div style="margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border)">
 
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:1.5rem">
+    <div style="width:3px;height:24px;background:var(--eu-gold);border-radius:2px;flex-shrink:0"></div>
+    <h3 style="font-family:var(--font-display);font-size:1.35rem;font-weight:600;color:var(--text-primary);margin:0"
+        class="t" data-ro="Informații Cămin Camelia" data-en="Camelia Dormitory — Information">
+      Informații Cămin Camelia
+    </h3>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem" class="camere-notes-grid">
+
+    <!-- Check-in procedure -->
+    <div style="background:white;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm)">
+      <div style="background:var(--eu-blue);padding:1rem 1.25rem;display:flex;align-items:center;gap:10px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+        <span style="font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:white"
+              class="t" data-ro="Procedura la Sosire" data-en="Check-in Procedure">Procedura la Sosire</span>
+      </div>
+      <div style="padding:1.25rem">
+
+        <!-- No reception alert -->
+        <div style="display:flex;align-items:flex-start;gap:8px;padding:.65rem .85rem;background:#fef2f2;border:1px solid #fecaca;border-radius:7px;margin-bottom:1.1rem">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <span style="font-size:.78rem;color:#991b1b;line-height:1.55" class="t"
+            data-ro="Acesta este un cămin studențesc — nu există recepție."
+            data-en="This is a student dormitory — there is no reception desk.">
+            Acesta este un cămin studențesc — nu există recepție.
+          </span>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:0">
+
+          <!-- Step 1 -->
+          <div style="display:flex;gap:12px;padding-bottom:.9rem">
+            <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0">
+              <div style="width:22px;height:22px;background:var(--eu-blue);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;font-family:var(--font-body)">1</div>
+              <div style="width:1px;flex:1;background:var(--border);margin-top:4px"></div>
+            </div>
+            <div style="padding-bottom:.25rem">
+              <div style="font-size:.84rem;font-weight:600;color:var(--text-primary);margin-bottom:2px"
+                   class="t" data-ro="Check-in după 15:00 · Check-out înainte de 10:00" data-en="Check-in after 15:00 · Check-out before 10:00">Check-in după 15:00 · Check-out înainte de 10:00</div>
+              <div style="font-size:.77rem;color:var(--text-secondary)"
+                   class="t" data-ro="Check-out-ul final este 30.03.2026 înainte de ora 10:00 EET." data-en="Final check-out is 30.03.2026 before 10:00 EET.">Check-out-ul final este 30.03.2026 înainte de ora 10:00 EET.</div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div style="display:flex;gap:12px;padding-bottom:.9rem">
+            <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0">
+              <div style="width:22px;height:22px;background:var(--eu-blue);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;font-family:var(--font-body)">2</div>
+              <div style="width:1px;flex:1;background:var(--border);margin-top:4px"></div>
+            </div>
+            <div style="padding-bottom:.25rem">
+              <div style="font-size:.84rem;font-weight:600;color:var(--text-primary);margin-bottom:2px"
+                   class="t" data-ro="Ușa principală este permanent închisă" data-en="The main door is permanently locked">Ușa principală este permanent închisă</div>
+              <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.6" class="t"
+                data-ro="La prima intrare, apasă singurul buton al interfonului din dreapta ușii și comunică: <strong>„Model European Union — conferința internațională a studenților FSGC"</strong>."
+                data-en="On first entry, press the single intercom button to the right of the door and state: <strong>&quot;Model European Union — conferința internațională a studenților FSGC&quot;</strong>.">
+                La prima intrare, apasă singurul buton al interfonului din dreapta ușii și comunică: <strong>„Model European Union — conferința internațională a studenților FSGC"</strong>.
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div style="display:flex;gap:12px;padding-bottom:.9rem">
+            <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0">
+              <div style="width:22px;height:22px;background:var(--eu-blue);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;font-family:var(--font-body)">3</div>
+              <div style="width:1px;flex:1;background:var(--border);margin-top:4px"></div>
+            </div>
+            <div style="padding-bottom:.25rem">
+              <div style="font-size:.84rem;font-weight:600;color:var(--text-primary);margin-bottom:2px"
+                   class="t" data-ro="Așteptați sunetul de confirmare" data-en="Wait for the confirmation sound">Așteptați sunetul de confirmare</div>
+              <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.6" class="t"
+                data-ro="Deschiderea se face online, cu o întârziere de câteva secunde. Nu trageți de ușă înainte de a auzi sunetul de confirmare."
+                data-en="The door opens online with a few seconds' delay. Do not pull the door before hearing the confirmation sound.">
+                Deschiderea se face online, cu o întârziere de câteva secunde. Nu trageți de ușă înainte de a auzi sunetul de confirmare.
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div style="display:flex;gap:12px;padding-bottom:.9rem">
+            <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0">
+              <div style="width:22px;height:22px;background:var(--eu-blue);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;font-family:var(--font-body)">4</div>
+              <div style="width:1px;flex:1;background:var(--border);margin-top:4px"></div>
+            </div>
+            <div style="padding-bottom:.25rem">
+              <div style="font-size:.84rem;font-weight:600;color:var(--text-primary);margin-bottom:2px"
+                   class="t" data-ro="Cheia și cartela se află în cameră" data-en="Key and access card are in the room">Cheia și cartela se află în cameră</div>
+              <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.6" class="t"
+                data-ro="Ușa camerei va fi deschisă. Pe birou veți găsi cheia și cartela de acces — folosiți-o la scannerul din dreapta ușii principale pentru intrări ulterioare. Citiți regulamentul de pe ușa camerei."
+                data-en="Your room door will be unlocked. On the desk you will find the key and access card — use it at the scanner to the right of the main entrance for subsequent entries. Read the rules on the inside of the room door.">
+                Ușa camerei va fi deschisă. Pe birou veți găsi cheia și cartela de acces — folosiți-o la scannerul din dreapta ușii principale pentru intrări ulterioare. Citiți regulamentul de pe ușa camerei.
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div style="display:flex;gap:12px">
+            <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0">
+              <div style="width:22px;height:22px;background:var(--eu-gold);color:var(--eu-blue-dark);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;font-family:var(--font-body)">5</div>
+            </div>
+            <div>
+              <div style="font-size:.84rem;font-weight:600;color:var(--text-primary);margin-bottom:2px"
+                   class="t" data-ro="La plecare — cheia pe biroul din cameră" data-en="On departure — key on the room desk">La plecare — cheia pe biroul din cameră</div>
+              <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.6" class="t"
+                data-ro="Cheia și cartela de acces pot fi lăsate pe birou. Mulțumim!"
+                data-en="The key and access card can be left on the desk. Thank you!">
+                Cheia și cartela de acces pot fi lăsate pe birou. Mulțumim!
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Maps buttons -->
+        <div style="display:flex;gap:.5rem;margin-top:1.1rem">
+          <a href="https://goo.gl/maps/VD528PGSEgUpP2t77" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="flex:1;justify-content:center;font-size:.7rem">
+            <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 1C4.24 1 2 3.24 2 6c0 3.75 5 7 5 7s5-3.25 5-7c0-2.76-2.24-5-5-5z"/><circle cx="7" cy="6" r="1.8"/></svg>
+            Google Maps
+          </a>
+          <a href="https://waze.com/ul/hu2ph66rk2" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="flex:1;justify-content:center;font-size:.7rem">
+            <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="6"/><path d="M7 4v3.5L9 9"/></svg>
+            Waze
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- House rules -->
+    <div style="background:white;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm)">
+      <div style="background:var(--gray-600);padding:1rem 1.25rem;display:flex;align-items:center;gap:10px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        <span style="font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:white"
+              class="t" data-ro="Regulament Cămin" data-en="House Rules">Regulament Cămin</span>
+      </div>
+      <div style="padding:1rem;display:flex;flex-direction:column;gap:.55rem">
+
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:.6rem .8rem;background:var(--gray-100);border-radius:7px;border-left:3px solid var(--eu-blue)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--eu-blue)" stroke-width="2" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <div>
+            <div style="font-size:.7rem;font-weight:700;color:var(--eu-blue);text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px" class="t" data-ro="Bunuri comune" data-en="Common goods">Bunuri comune</div>
+            <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.55" class="t"
+              data-ro="Mașinile de spălat, uscătoarele, plitele și cuptoarele sunt bunuri comune — folosiți-le cu grijă și lăsați-le curate. Bucătăria se lasă în starea în care a fost găsită. Nu mutați mobila."
+              data-en="Washing machines, dryers, hobs and ovens are common goods — use them carefully and leave them clean. Leave the kitchen as you found it. Do not move the furniture.">
+              Mașinile de spălat, uscătoarele, plitele și cuptoarele sunt bunuri comune — folosiți-le cu grijă și lăsați-le curate. Bucătăria se lasă în starea în care a fost găsită. Nu mutați mobila.
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:.6rem .8rem;background:#fef2f2;border-radius:7px;border-left:3px solid #dc2626">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+          <div>
+            <div style="font-size:.7rem;font-weight:700;color:#dc2626;text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px" class="t" data-ro="Fumatul strict interzis" data-en="Strictly no smoking">Fumatul strict interzis</div>
+            <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.55" class="t"
+              data-ro="Fumatul este interzis în toată clădirea, inclusiv pe balcoane. Sancțiunea: exmatriculare fără drept de cazare la UVT pentru toată perioada studiilor."
+              data-en="Smoking is prohibited throughout the building, including on balconies. Penalty: expulsion with no right to UVT accommodation for the entire study period.">
+              Fumatul este interzis în toată clădirea, inclusiv pe balcoane. Sancțiunea: exmatriculare fără drept de cazare la UVT pentru toată perioada studiilor.
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:.6rem .8rem;background:#fef2f2;border-radius:7px;border-left:3px solid #dc2626">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <div>
+            <div style="font-size:.7rem;font-weight:700;color:#dc2626;text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px" class="t" data-ro="Nicio sursă de foc" data-en="No open flames">Nicio sursă de foc</div>
+            <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.55" class="t"
+              data-ro="Nicio sursă deschisă de foc nu este permisă, inclusiv lumânări. Nu lăsați niciodată aragazul/cuptorul aprins nesupravegheat."
+              data-en="No open flame of any kind is permitted, including candles. Never leave the stove or oven on unattended.">
+              Nicio sursă deschisă de foc nu este permisă, inclusiv lumânări. Nu lăsați niciodată aragazul/cuptorul aprins nesupravegheat.
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:.6rem .8rem;background:#fffbeb;border-radius:7px;border-left:3px solid #f59e0b">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div>
+            <div style="font-size:.7rem;font-weight:700;color:#92400e;text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px" class="t" data-ro="Ore de liniște" data-en="Quiet hours">Ore de liniște</div>
+            <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.55" class="t"
+              data-ro="13:00 – 16:00 și 22:00 – 08:00. Vă rugăm să respectați liniștea colegilor."
+              data-en="13:00 – 16:00 and 22:00 – 08:00. Please respect your fellow residents' peace.">
+              13:00 – 16:00 și 22:00 – 08:00. Vă rugăm să respectați liniștea colegilor.
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:.6rem .8rem;background:var(--gray-100);border-radius:7px;border-left:3px solid var(--eu-blue)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--eu-blue)" stroke-width="2" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <div>
+            <div style="font-size:.7rem;font-weight:700;color:var(--eu-blue);text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px" class="t" data-ro="Uși de acces" data-en="Access doors">Uși de acces</div>
+            <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.55" class="t"
+              data-ro="Ușile de acces rămân permanent închise. Folosiți propria cartelă — nu lăsați pe nimeni să intre fără cartelă și nu blocați ușa."
+              data-en="Access doors must remain permanently closed. Use your own card — do not let anyone in without a card and do not block the door.">
+              Ușile de acces rămân permanent închise. Folosiți propria cartelă — nu lăsați pe nimeni să intre fără cartelă și nu blocați ușa.
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:.6rem .8rem;background:#fef2f2;border-radius:7px;border-left:3px solid #dc2626">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          <div>
+            <div style="font-size:.7rem;font-weight:700;color:#dc2626;text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px" class="t" data-ro="Alcool și substanțe" data-en="Alcohol and substances">Alcool și substanțe</div>
+            <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.55" class="t"
+              data-ro="Nu intrați în cămin cu alcool sau substanțe narcotice și nici după ce le-ați consumat."
+              data-en="Do not enter the dormitory with alcohol or narcotic substances, or after having consumed them.">
+              Nu intrați în cămin cu alcool sau substanțe narcotice și nici după ce le-ați consumat.
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:.6rem .8rem;background:#f0fdf4;border-radius:7px;border-left:3px solid #16a34a">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" style="flex-shrink:0;margin-top:1px"><polyline points="1 4 1 10 7 10"/><polyline points="23 20 23 14 17 14"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+          <div>
+            <div style="font-size:.7rem;font-weight:700;color:#16a34a;text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px" class="t" data-ro="Reciclare" data-en="Recycling">Reciclare</div>
+            <div style="font-size:.77rem;color:var(--text-secondary);line-height:1.55" class="t"
+              data-ro="Hârtia, plasticul/metalul și sticla se aruncă separat în containerele marcate. Gunoiul rezidual — pubelele negre din curtea căminului (marcate &quot;Doar deșeuri reziduale&quot;)."
+              data-en="Paper, plastic/metal and glass go in the labelled containers. Residual waste goes in the black bins in the yard (labelled &quot;Garbage only&quot;).">
+              Hârtia, plasticul/metalul și sticla se aruncă separat în containerele marcate. Gunoiul rezidual — pubelele negre din curtea căminului (marcate „Doar deșeuri reziduale").
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<style>
+@media(max-width:820px){ .camere-notes-grid{grid-template-columns:1fr!important} }
+</style>
+
+	  
   </div>
 </section>
 
@@ -4235,67 +4474,83 @@ if (waBtn) {
 
 <script>
 /* ═══════════════════════════════════════════════════
-   FLOOR PLAN - Harta interactivă camere
+   FLOOR PLAN v2 — Etaje Camelia · Triple FITT
    ═══════════════════════════════════════════════════ */
 (function () {
 
-  /* ── Date ─────────────────────────────────────── */
-var DORM = {
-  camelia: {
-    label: 'Camelia', roomW: 800/9, showNames: true,
-    top: [
-      {n:1,  p1:'Olaf Piasta',           p2:'Maksymilian Manchura',   gender:'male'},
-      {n:2,  p1:'Vivian Eva Zaharia',     p2:'Miruna Cornescu',        gender:'female'},
-      {n:3,  p1:'Daniel Nunes',           p2:'Rodrigo Moreira',        gender:'male'},
-      {n:4,  p1:'Mara Lea Goodall',       p2:'Llorenc Hinajeros',      gender:'female'},
-      {n:5,  p1:'Arabella Laveneziana',   p2:'Diana Georgiana Barău',  gender:'female'},
-      {n:6,  p1:'Roberta Parella',        p2:'Caterina Cavion',        gender:'female'},
-      {n:7,  p1:'Bartosz Szybiak',        p2:'Maxence Bouhours',       gender:'male'},
-      {n:8,  p1:'Michalina Rosin',        p2:'Nikola Zak',             gender:'male'},
-      {n:9,  p1:'Matheo Pauwels',         p2:'Jules Breant',           gender:'male'}
-    ],
-    bot: [
-      {n:10, p1:'Bibiana Shanks-Davison', p2:'Alexandra Cazan',        gender:'female'},
-      {n:11, p1:'Mateusz Mielcarz',       p2:'Eric Moraru',            gender:'male'},
-      {n:12, p1:'Priam Llalla',           p2:'Albin Mixhati',          gender:'male'},
-      {n:13, p1:'Leonardo Cutelle',       p2:'Giuseppe de Vincenzo',   gender:'male'},
-      {n:14, p1:'Matthew Murnaghan',      p2:'',                       gender:'male'},
-      {n:15, p1:'Elleonore Nohan',        p2:'Elodie Michel',          gender:'female'},
-      {n:16, p1:'Vitor Andrade Andre',    p2:'Nuno Costa',             gender:'male'},
-      {n:17, p1:'Daniel Tielas',          p2:'',                       gender:'male'},
-      {n:18, p1:'Rezervat',               p2:'Rezervat',               gender:'reserved'}
-    ]
-  },
-  fitt: {
-    label: 'FITT', roomW: 160, showNames: false,
-    top: [
-      {n:1, p1:'Aleksandra Angelova',    p2:'Letizia Bianchi',       gender:'female'},
-      {n:2, p1:'Felix Moore',            p2:'David Ionuț Dumitru',   gender:'male'},
-      {n:3, p1:'Alexandru Butaru',       p2:'Ruben Lopez Garcia',    gender:'male'},
-      {n:4, p1:'Ferran Fuentes Romero',  p2:'Sergio Perez Lopez',    gender:'male'},
-      {n:5, p1:'Lorena Gomez Rubiato',   p2:'Emma Guillen',          gender:'female'}
-    ],
-    bot: []
-  }
-};
-
-  /* ── Constante SVG ──────────────────────────────── */
-  var NS   = 'http://www.w3.org/2000/svg';
-  var BX=10, BY=10, BW=800, BH=280;
-  var RH=115, CORR_Y=125, CORR_H=50, BOT_Y=175;
-
-  /* Culori */
-  var C = {
-    buildBg:'#f4f7fc', buildStroke:'#1a3a6e',
-    roomFill:'white',  roomHover:'#edf2ff', roomSel:'#0d2150',
-    roomStroke:'#b8c8de',
-    corrFill:'#d8e4f2', corrText:'#6a80a5',
-    numNorm:'#1a3270',  numSel:'white',
-    dotNorm:'#2c4580',  dotSel:'#ffcc00',
-    doorLine:'#96a8c4', stairsBg:'#e8ecf4', stairsHatch:'#c0cfe6'
+  var DORM = {
+    camelia: {
+      label: 'Camelia', showNames: true,
+      floors: [
+        {
+          id:'f1', label:{ro:'Etaj 1', en:'Floor 1'},
+          rooms:[
+            {n:'121', p1:'Daniel Nunes',          p2:'Rodrigo Moreira',        p3:'', gender:'male'},
+            {n:'124', p1:'Michalina Rosin',        p2:'Nikola Zak',             p3:'', gender:'male'},
+            {n:'125', p1:'Letizia Bianchi',        p2:'Alexandra Cazan',        p3:'', gender:'female'}
+          ]
+        },
+        {
+          id:'f2', label:{ro:'Etaj 2', en:'Floor 2'},
+          rooms:[
+            {n:'221', p1:'Olaf Piasta',            p2:'Maksymilian Manchura',   p3:'', gender:'male'},
+            {n:'222', p1:'Matheo Pauwels',          p2:'Jules Breant',           p3:'', gender:'male'},
+            {n:'223', p1:'Elleonore Nohan',         p2:'Elodie Michel',          p3:'', gender:'female'},
+            {n:'224', p1:'Llorenc Hinajeros',       p2:'Felix Moore',            p3:'', gender:'male'},
+            {n:'225', p1:'Leonardo Cutelle',        p2:'Giuseppe de Vincenzo',   p3:'', gender:'male'}
+          ]
+        },
+        {
+          id:'f3', label:{ro:'Etaj 3', en:'Floor 3'},
+          rooms:[
+            {n:'321', p1:'Lorena Gomez Rubiato',   p2:'Emma Guillen',           p3:'', gender:'female'},
+            {n:'322', p1:'Roberta Parella',         p2:'Caterina Cavion',        p3:'', gender:'female'},
+            {n:'323', p1:'Mateusz Mielcarz',        p2:'Eric Moraru',            p3:'', gender:'male'},
+            {n:'324', p1:'Vitor Andrade Andre',     p2:'Nuno Costa',             p3:'', gender:'male'},
+            {n:'325', p1:'David Ionuț Dumitru',     p2:'Sergio Perez Lopez',     p3:'', gender:'male'}
+          ]
+        },
+        {
+          id:'f4', label:{ro:'Etaj 4', en:'Floor 4'},
+          rooms:[
+            {n:'M16', p1:'Vivian Eva Zaharia',      p2:'Miruna Cornescu',        p3:'', gender:'female'},
+            {n:'M17', p1:'Arabella Laveneziana',    p2:'Diana Georgiana Barău',  p3:'', gender:'female'},
+            {n:'M18', p1:'Bartosz Szybiak',         p2:'Maxence Bouhours',       p3:'', gender:'male'},
+            {n:'M19', p1:'Daniel Tielas',           p2:'Ferran Fuentes Romero',  p3:'', gender:'male'},
+            {n:'M20', p1:'Alexandru Butaru',        p2:'Ruben Lopez Garcia',     p3:'', gender:'male', unoccupied:true}
+          ]
+        }
+      ]
+    },
+    fitt: {
+      label: 'FITT', showNames: false,
+      floors: [
+        {
+          id:'f1', label:{ro:'Camere', en:'Rooms'},
+          rooms:[
+            {n:'1', p1:'Albin Mixhati',       p2:'Priam Llalla',           p3:'Matthew Murnaghan',       gender:'male'},
+            {n:'2', p1:'Stefanija Labroska',  p2:'Aleksandra Angelova',    p3:'Bibiana Shanks-Davison',  gender:'female'}
+          ]
+        }
+      ]
+    }
   };
 
-  /* ── Helper: creeaza element SVG ─────────────────── */
+  /* ── SVG constants ── */
+  var NS   = 'http://www.w3.org/2000/svg';
+  var BX=10, BY=10, BW=800, RH=185, CORR_H=35;
+  var C = {
+    buildStroke:'#1a3a6e', roomHover:'#edf2ff', roomSel:'#0d2150',
+    corrFill:'#d8e4f2',    corrText:'#6a80a5',
+    numNorm:'#1a3270',     numSel:'white',
+    dotNorm:'#2c4580',     dotSel:'#ffcc00',
+    doorLine:'#96a8c4',    stairsHatch:'#c0cfe6'
+  };
+
+  var _fpDorm  = 'camelia';
+  var _fpFloor = {camelia:0, fitt:0};
+
+  /* ── Helpers ── */
   function el(tag, attrs, txt) {
     var e = document.createElementNS(NS, tag);
     if (attrs) Object.keys(attrs).forEach(function(k){ e.setAttribute(k, attrs[k]); });
@@ -4303,368 +4558,247 @@ var DORM = {
     return e;
   }
 
-  /* ── Trunchiere nume ─────────────────────────────── */
   function shortName(name, maxLen) {
     if (!name) return '';
     if (name.length <= maxLen) return name;
-    var parts = name.split(' ');
-    var out = parts[0];
-    for (var i = 1; i < parts.length; i++) {
-      if ((out + ' ' + parts[i]).length > maxLen) break;
-      out += ' ' + parts[i];
-    }
-    return out;
+    var p = name.split(' '), o = p[0];
+    for (var i=1; i<p.length; i++) { if ((o+' '+p[i]).length > maxLen) break; o += ' '+p[i]; }
+    return o;
   }
 
-  /* ── Randare cameră individuală ──────────────────── */
-  function makeRoom(room, isTop, RW, svg) {
-    var idx   = isTop ? DORM[window._fpDorm].top.indexOf(room) : DORM[window._fpDorm].bot.indexOf(room);
-    var rx    = BX + idx * RW;
-    var ry    = isTop ? BY : BOT_Y;
-    var dcx   = rx + RW / 2;
-    var doorY = isTop ? ry + RH : ry;
-    var dw    = 18;
-    var isSingle = !room.p2 || room.p2.trim() === '';
-	
-	    /* ── Culoare cameră bazată pe gen ── */
-    var genderFill = room.gender === 'female'   ? '#fff0f3'
-                   : room.gender === 'male'     ? '#eff4ff'
-                   : room.gender === 'reserved' ? '#eef0f6'
-                   : C.roomFill;
-    var genderAccent = room.gender === 'female'   ? '#f9a8c9'
-                     : room.gender === 'male'     ? '#93b4f0'
-                     : room.gender === 'reserved' ? '#c4c9d8'
-                     : C.roomStroke;
-    var genderLabel = room.gender === 'female' ? 'F'
-                    : room.gender === 'male'   ? 'M'
-                    : room.gender === 'reserved' ? '—' : '';
+  function gc(gender) {
+    if (gender==='female') return {fill:'#fff0f3', stroke:'#f9a8c9', accent:'#f9a8c9', lbl:'F'};
+    if (gender==='male')   return {fill:'#eff4ff', stroke:'#93b4f0', accent:'#93b4f0', lbl:'M'};
+    return                        {fill:'#f4f4f8', stroke:'#c4c9d8', accent:'#c4c9d8', lbl:'—'};
+  }
+
+  function getLang_fp() {
+    try { var a=document.querySelector('.lang-btn.active,[data-lang].active'); if(a) return a.dataset.lang||'ro'; } catch(e){}
+    return (typeof currentLang!=='undefined' ? currentLang : 'ro');
+  }
+
+  /* ── Render single room ── */
+  function makeRoom(room, idx, RW, svg, showNames) {
+    var g_c = gc(room.gender);
+    var rx  = BX + idx*RW, ry = BY, dcx = rx+RW/2;
+    var dw  = Math.min(20, RW*0.12);
+    var isSingle = !room.p2 || room.p2.trim()==='';
+    var isTriple = room.p3 && room.p3.trim()!=='';
+    var numSz  = RW>140?26:(RW>90?20:15);
+    var maxLen = RW>140?20:(RW>90?14:10);
 
     var g = el('g', {'class':'fp-room'});
-    g.dataset.n    = room.n;
-    g.dataset.p1   = room.p1;
-    g.dataset.p2   = room.p2 || '';
-    g.dataset.dorm = DORM[window._fpDorm].label;
 
-    /* Background rect */
-var bg = el('rect', {x:rx, y:ry, width:RW, height:RH,
-      fill:genderFill, stroke:genderAccent, 'stroke-width':1, 'class':'fpr-bg',
-      'data-gfill':genderFill});
+    /* Background */
+    var bg = el('rect', {x:rx, y:ry, width:RW, height:RH,
+      fill:g_c.fill, stroke:g_c.stroke, 'stroke-width':1,
+      'class':'fpr-bg', 'data-gfill':g_c.fill});
     g.appendChild(bg);
 
-    /* Accent bar lateral stânga */
-    g.appendChild(el('rect', {
-      x:rx, y:ry, width:3, height:RH,
-      fill:genderAccent, stroke:'none'
-    }));
+    /* Left accent bar */
+    g.appendChild(el('rect', {x:rx, y:ry, width:3.5, height:RH, fill:g_c.accent, stroke:'none'}));
 
-    /* Badge gen (colț dreapta sus) */
-    if (room.gender !== 'reserved' && genderLabel) {
-      var badgeG = el('g', {});
-      badgeG.appendChild(el('rect', {
-        x:rx+RW-16, y:ry+3, width:13, height:12, rx:3,
-        fill:genderAccent, 'opacity':0.85
-      }));
-      badgeG.appendChild(el('text', {
-        x:rx+RW-9.5, y:ry+11.5, 'text-anchor':'middle',
-        fill:'white', 'font-size':7.5, 'font-weight':700,
-        'font-family':'sans-serif'
-      }, genderLabel));
-      g.appendChild(badgeG);
-    }
+    /* Gender badge */
+    g.appendChild(el('rect', {x:rx+RW-18, y:ry+3, width:15, height:13, rx:3, fill:g_c.accent}));
+    g.appendChild(el('text', {x:rx+RW-10.5, y:ry+12, 'text-anchor':'middle',
+      fill:'white', 'font-size':7.5, 'font-weight':700, 'font-family':'sans-serif'}, g_c.lbl));
 
-    /* Door gap (covers wall line with corridor color) */
-    g.appendChild(el('line', {
-      x1:dcx-dw/2, y1:doorY, x2:dcx+dw/2, y2:doorY,
-      stroke:C.corrFill, 'stroke-width':2.5
-    }));
-
-    /* Door arc (standard architectural symbol) */
-    var arcD;
-    if (isTop) {
-      arcD = 'M '+(dcx-dw/2)+','+(doorY)+' L '+(dcx-dw/2)+','+(doorY-dw)+
-             ' A '+dw+','+dw+' 0 0,1 '+(dcx+dw/2)+','+doorY;
-    } else {
-      arcD = 'M '+(dcx+dw/2)+','+doorY+' L '+(dcx+dw/2)+','+(doorY+dw)+
-             ' A '+dw+','+dw+' 0 0,0 '+(dcx-dw/2)+','+doorY;
-    }
-    g.appendChild(el('path', {d:arcD, fill:'none', stroke:C.doorLine, 'stroke-width':0.8}));
-
-    /* Număr cameră */
-    var numY = isTop ? ry+40 : ry+62;
-    var numEl = el('text', {
-      x:rx+RW/2, y:numY, 'text-anchor':'middle',
+    /* Room number */
+    g.appendChild(el('text', {x:dcx, y:ry+52, 'text-anchor':'middle',
       fill:C.numNorm, 'class':'fpr-num',
-      'font-size': RW >= 150 ? 22 : 17,
-      'font-weight':700, 'font-family':'Georgia,serif'
-    }, String(room.n).padStart(2,'0'));
-    g.appendChild(numEl);
+      'font-size':numSz, 'font-weight':700, 'font-family':'Georgia,serif'
+    }, String(room.n)));
 
-    /* Puncte ocupare */
-    var dotsY = isTop ? ry+62 : ry+83;
-    if (isSingle) {
-      g.appendChild(el('rect', {
-        x:rx+RW/2-18, y:dotsY-8, width:36, height:13, rx:3,
-        fill:'#fffbeb', stroke:'#fde68a', 'stroke-width':0.8
-      }));
-      g.appendChild(el('text', {
-        x:rx+RW/2, y:dotsY+1, 'text-anchor':'middle',
+    /* Occupancy indicator */
+    var oY = ry+72;
+    if (isTriple) {
+      g.appendChild(el('rect', {x:dcx-25, y:oY-9, width:50, height:14, rx:3, fill:'#fdf4ff', stroke:'#d8b4fe', 'stroke-width':0.8}));
+      g.appendChild(el('text', {x:dcx, y:oY+1.5, 'text-anchor':'middle',
+        fill:'#7e22ce', 'font-size':6.5, 'font-weight':700,
+        'font-family':'sans-serif', 'letter-spacing':0.5}, 'TRIPLE'));
+    } else if (isSingle) {
+      g.appendChild(el('rect', {x:dcx-20, y:oY-9, width:40, height:14, rx:3, fill:'#fffbeb', stroke:'#fde68a', 'stroke-width':0.8}));
+      g.appendChild(el('text', {x:dcx, y:oY+1.5, 'text-anchor':'middle',
         fill:'#92400e', 'font-size':6.5, 'font-weight':700,
-        'font-family':'sans-serif', 'letter-spacing':0.5
-      }, 'SINGLE'));
+        'font-family':'sans-serif', 'letter-spacing':0.5}, 'SINGLE'));
     } else {
-      var d1 = el('circle', {cx:rx+RW/2-6, cy:dotsY, r:3.5,
-        fill:C.dotNorm, 'class':'fpr-dot'});
-      var d2 = el('circle', {cx:rx+RW/2+6, cy:dotsY, r:3.5,
-        fill:C.dotNorm, 'class':'fpr-dot'});
-      g.appendChild(d1);
-      g.appendChild(d2);
-    }
-
-    /* Nume (doar pentru FITT - camere mai late) */
-    if (RW >= 150 && DORM[window._fpDorm].showNames !== false) {
-      var ny1 = isTop ? ry+82 : ry+102;
-      g.appendChild(el('text', {
-        x:rx+RW/2, y:ny1, 'text-anchor':'middle',
-        fill:'#4a5879', 'font-size':8, 'font-family':'sans-serif',
-        'class':'fpr-name'
-      }, shortName(room.p1, 20)));
-      if (!isSingle) {
-        g.appendChild(el('text', {
-          x:rx+RW/2, y:ny1+11, 'text-anchor':'middle',
-          fill:'#4a5879', 'font-size':8, 'font-family':'sans-serif',
-          'class':'fpr-name'
-        }, shortName(room.p2, 20)));
-      }
-    }
-
-    /* Hover */
-    g.addEventListener('mouseenter', function() {
-      if (!g.classList.contains('fp-sel')) bg.setAttribute('fill', C.roomHover);
-    });
-    g.addEventListener('mouseleave', function() {
-      if (!g.classList.contains('fp-sel')) bg.setAttribute('fill', genderFill);
-    });
-
-    /* Click */
-    g.addEventListener('click', function() {
-      /* Resetare toate camerele selectate */
-      svg.querySelectorAll('.fp-room.fp-sel').forEach(function(r) {
-        r.classList.remove('fp-sel');
-        r.querySelector('.fpr-bg').setAttribute('fill', C.roomFill);
-        var rNum = r.querySelector('.fpr-num');
-        if (rNum) rNum.setAttribute('fill', C.numNorm);
-        r.querySelectorAll('.fpr-dot').forEach(function(d){ d.setAttribute('fill', C.dotNorm); });
+      [dcx-7, dcx+7].forEach(function(cx) {
+        g.appendChild(el('circle', {cx:cx, cy:oY, r:3.5, fill:C.dotNorm, 'class':'fpr-dot'}));
       });
-      /* Selectează aceasta */
-      g.classList.add('fp-sel');
-      bg.setAttribute('fill', C.roomSel);
-      numEl.setAttribute('fill', C.numSel);
-      g.querySelectorAll('.fpr-dot').forEach(function(d){ d.setAttribute('fill', C.dotSel); });
-      /* Panel */
-      showRoomPanel(room.n, room.p1, room.p2, g.dataset.dorm);
-    });
-	
-	if (room.gender === 'reserved') {
-      g.appendChild(el('rect', {
-        x:rx+3, y:ry, width:RW-3, height:RH,
-        fill:'url(#fp-hatch)', stroke:'none', 'opacity':0.4
-      }));
-      g.appendChild(el('text', {
-        x:rx+RW/2, y:ry+RH/2+4,
-        'text-anchor':'middle', fill:'#8899bb',
-        'font-size': RW > 100 ? 8 : 6.5, 'font-weight':600,
-        'font-family':'sans-serif', 'letter-spacing':1
-      }, 'REZERVAT'));
     }
+
+    /* Names (Camelia only) */
+    if (showNames) {
+      var names=[room.p1,room.p2,room.p3].filter(function(n){return n&&n.trim();});
+      names.forEach(function(name,i){
+        g.appendChild(el('text', {x:dcx, y:ry+90+(i*13), 'text-anchor':'middle',
+          fill:'#4a5879', 'font-size':RW>140?7.5:6.5, 'font-family':'sans-serif'
+        }, shortName(name, maxLen)));
+      });
+    }
+
+    /* Door arc */
+    var doorY=ry+RH;
+    g.appendChild(el('line',{x1:dcx-dw/2,y1:doorY,x2:dcx+dw/2,y2:doorY,stroke:C.corrFill,'stroke-width':2.5}));
+    g.appendChild(el('path',{d:'M '+(dcx-dw/2)+','+doorY+' L '+(dcx-dw/2)+','+(doorY-dw)+' A '+dw+','+dw+' 0 0,1 '+(dcx+dw/2)+','+doorY,
+      fill:'none',stroke:C.doorLine,'stroke-width':0.8}));
+
+    /* Unoccupied overlay */
+    if (room.unoccupied) {
+      g.appendChild(el('rect',{x:rx+3.5,y:ry,width:RW-3.5,height:RH,fill:'rgba(190,205,225,0.45)',stroke:'none'}));
+      g.appendChild(el('text',{x:dcx,y:ry+RH/2+4,'text-anchor':'middle',
+        fill:'rgba(80,100,140,0.5)','font-size':7.5,'font-family':'sans-serif','font-weight':600,'letter-spacing':2},'REZERVAT'));
+    }
+
+    /* Hover / click */
+    g.addEventListener('mouseenter', function(){
+      if(!g.classList.contains('fp-sel')) bg.setAttribute('fill',C.roomHover);
+    });
+    g.addEventListener('mouseleave', function(){
+      if(!g.classList.contains('fp-sel')) bg.setAttribute('fill',bg.getAttribute('data-gfill')||g_c.fill);
+    });
+    g.addEventListener('click', function(){
+      var fp=document.getElementById('fp-container');
+      if(fp) fp.querySelectorAll('.fp-room.fp-sel').forEach(function(r){
+        r.classList.remove('fp-sel');
+        var rb=r.querySelector('.fpr-bg'), rn=r.querySelector('.fpr-num');
+        if(rb) rb.setAttribute('fill',rb.getAttribute('data-gfill')||'white');
+        if(rn) rn.setAttribute('fill',C.numNorm);
+        r.querySelectorAll('.fpr-dot').forEach(function(d){d.setAttribute('fill',C.dotNorm);});
+      });
+      g.classList.add('fp-sel');
+      bg.setAttribute('fill',C.roomSel);
+      var nm=g.querySelector('.fpr-num'); if(nm) nm.setAttribute('fill',C.numSel);
+      g.querySelectorAll('.fpr-dot').forEach(function(d){d.setAttribute('fill',C.dotSel);});
+      showRoomPanel(room, DORM[_fpDorm].label);
+    });
 
     svg.appendChild(g);
   }
 
-  /* ── Randare plan etaj complet ───────────────────── */
-  function renderFloorPlan(dormId) {
-    window._fpDorm = dormId;
-    var dorm = DORM[dormId];
-    var RW = dorm.roomW;
+  /* ── Render floor ── */
+  function renderFloorPlan(dormId, floorIdx) {
+    _fpDorm = dormId;
+    var fi = floorIdx||0; _fpFloor[dormId]=fi;
+    var dorm=DORM[dormId], floor=dorm.floors[fi], rooms=floor.rooms;
+    var n=rooms.length, RW=BW/n, lang=getLang_fp();
+    var totalH=BY+RH+CORR_H+BY;
 
-    var svg = el('svg', {
-      viewBox:'0 0 820 300', width:'100%',
-      style:'display:block;max-height:420px'
-    });
-
-    /* Defs: pattern hașurare scări */
-    var defs = el('defs', {});
-    var pat  = el('pattern', {id:'fp-hatch', patternUnits:'userSpaceOnUse',
-      width:8, height:8, patternTransform:'rotate(45)'});
-    pat.appendChild(el('line', {x1:0,y1:0,x2:0,y2:8,
-      stroke:C.stairsHatch, 'stroke-width':1.5}));
-    defs.appendChild(pat);
-    svg.appendChild(defs);
-
-    /* Fundal clădire */
-    svg.appendChild(el('rect', {x:BX,y:BY,width:BW,height:BH,
-      fill:C.buildBg, stroke:'none'}));
-
-    /* Coridor */
-    svg.appendChild(el('rect', {x:BX,y:CORR_Y,width:BW,height:CORR_H,
-      fill:C.corrFill, stroke:'none'}));
-    svg.appendChild(el('text', {
-      x:BX+BW/2, y:CORR_Y+CORR_H/2+4,
-      'text-anchor':'middle', fill:C.corrText,
-      'font-size':9, 'font-family':'sans-serif',
-      'letter-spacing':3, 'font-weight':500
-    }, 'CORIDOR'));
-
-    /* Camere rând de sus */
-    dorm.top.forEach(function(r){ makeRoom(r, true, RW, svg); });
-
-    /* Camere rând de jos */
-    dorm.bot.forEach(function(r){ makeRoom(r, false, RW, svg); });
-
-    /* Scări / utilități (doar Camelia - 8 top, 7 bot → 1 slot liber în dreapta jos) */
-    if (dormId === 'camelia' && dorm.bot.length < dorm.top.length) {
-      var diff   = dorm.top.length - dorm.bot.length;
-      var stairX = BX + dorm.bot.length * RW;
-      var stairW = diff * RW;
-      var stairY = BOT_Y;
-      svg.appendChild(el('rect', {
-        x:stairX, y:stairY, width:stairW, height:RH,
-        fill:'url(#fp-hatch)', stroke:C.roomStroke, 'stroke-width':1
-      }));
-      /* Linii scări */
-      var cx = stairX + stairW/2;
-      var cy = stairY + RH/2 - 10;
-      [0,1,2,3].forEach(function(i) {
-        svg.appendChild(el('line', {
-          x1:cx-16+i*8, y1:cy+i*8,
-          x2:cx+16, y2:cy+i*8,
-          stroke:'#99aac4', 'stroke-width':1.5
-        }));
-        if (i < 3) svg.appendChild(el('line', {
-          x1:cx-16+i*8+8, y1:cy+i*8,
-          x2:cx-16+i*8+8, y2:cy+(i+1)*8,
-          stroke:'#99aac4', 'stroke-width':1.5
-        }));
-      });
-      svg.appendChild(el('text', {
-        x:cx, y:stairY+RH-14,
-        'text-anchor':'middle', fill:'#8899bb',
-        'font-size':7, 'font-family':'sans-serif',
-        'letter-spacing':1.5, 'font-weight':600
-      }, 'SCĂRI'));
+    /* Floor tabs */
+    var tabsEl=document.getElementById('fp-floor-tabs');
+    if(tabsEl) {
+      if(dorm.floors.length>1) {
+        tabsEl.innerHTML=dorm.floors.map(function(f,i){
+          var a=(i===fi);
+          return '<button onclick="switchFloor(\''+dormId+'\','+i+',this)" style="padding:5px 13px;font-size:.74rem;font-weight:700;font-family:var(--font-body);letter-spacing:.04em;border:1.5px solid '+(a?'var(--eu-blue)':'var(--border)')+';border-radius:5px;background:'+(a?'var(--eu-blue)':'white')+';color:'+(a?'white':'var(--text-secondary)')+';cursor:pointer;transition:all .15s;white-space:nowrap">'+f.label[lang]+'</button>';
+        }).join('');
+        tabsEl.style.cssText='display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.75rem';
+      } else {
+        tabsEl.innerHTML=''; tabsEl.style.display='none';
+      }
     }
 
-    /* Linii separatoare coridor (mai groase decât peretele de cameră) */
-    svg.appendChild(el('line', {x1:BX,y1:CORR_Y,x2:BX+BW,y2:CORR_Y,
-      stroke:C.buildStroke,'stroke-width':1.5}));
-    svg.appendChild(el('line', {x1:BX,y1:BOT_Y,x2:BX+BW,y2:BOT_Y,
-      stroke:C.buildStroke,'stroke-width':1.5}));
+    /* SVG */
+    var svg=el('svg',{viewBox:'0 0 '+(BW+BX*2)+' '+totalH,width:'100%',style:'display:block;max-height:380px'});
 
-    /* Contur clădire (deasupra - acoperă bordurile camerelor la margine) */
-    svg.appendChild(el('rect', {x:BX,y:BY,width:BW,height:BH,
-      fill:'none', stroke:C.buildStroke,'stroke-width':2.5}));
+    /* Defs */
+    var defs=el('defs',{}), pat=el('pattern',{id:'fp-hatch',patternUnits:'userSpaceOnUse',width:8,height:8,patternTransform:'rotate(45)'});
+    pat.appendChild(el('line',{x1:0,y1:0,x2:0,y2:8,stroke:C.stairsHatch,'stroke-width':1.5}));
+    defs.appendChild(pat); svg.appendChild(defs);
 
-    /* Etichetă cămin (stânga sus) */
-/* Etichetă clădire — fără "ETAJ 1" */
-    svg.appendChild(el('text', {
-      x:BX+8, y:BY+14,
-      fill:'rgba(26,58,110,.3)', 'font-size':8,
-      'font-family':'sans-serif', 'font-weight':700,
-      'letter-spacing':2
-    }, dorm.label.toUpperCase()));
+    /* Background + corridor */
+    svg.appendChild(el('rect',{x:BX,y:BY,width:BW,height:RH,fill:'#f4f7fc',stroke:'none'}));
+    svg.appendChild(el('rect',{x:BX,y:BY+RH,width:BW,height:CORR_H,fill:C.corrFill,stroke:'none'}));
+    svg.appendChild(el('text',{x:BX+BW/2,y:BY+RH+CORR_H/2+4,'text-anchor':'middle',
+      fill:C.corrText,'font-size':8.5,'font-family':'sans-serif','letter-spacing':3,'font-weight':500},
+      dormId==='fitt'?(lang==='ro'?'RECEPȚIE':'RECEPTION'):'CORIDOR'));
 
-    /* Lobby / spațiu gol dacă nu există camere jos */
-    if (dorm.bot.length === 0) {
-      svg.appendChild(el('rect', {
-        x:BX, y:BOT_Y, width:BW, height:RH,
-        fill:'#f4f7fc', stroke:'#c8d4e8', 'stroke-width':0.8,
-        'stroke-dasharray':'5,3'
-      }));
-      svg.appendChild(el('text', {
-        x:BX+BW/2, y:BOT_Y+RH/2+4,
-        'text-anchor':'middle', fill:'#8899bb',
-        'font-size':9, 'font-family':'sans-serif',
-        'letter-spacing':4, 'font-weight':500
-      }, 'RECEPȚIE'));
-    }
+    /* Rooms */
+    rooms.forEach(function(r,i){ makeRoom(r,i,RW,svg,dorm.showNames!==false); });
+
+    /* Building outline */
+    svg.appendChild(el('line',{x1:BX,y1:BY+RH,x2:BX+BW,y2:BY+RH,stroke:C.buildStroke,'stroke-width':1.5}));
+    svg.appendChild(el('rect',{x:BX,y:BY,width:BW,height:RH,fill:'none',stroke:C.buildStroke,'stroke-width':2.5}));
+
+    /* Label */
+    var lbl=dorm.floors.length>1?dorm.label+' · '+floor.label[lang]:dorm.label;
+    svg.appendChild(el('text',{x:BX+8,y:BY+14,fill:'rgba(26,58,110,.28)','font-size':7.5,
+      'font-family':'sans-serif','font-weight':700,'letter-spacing':2},lbl.toUpperCase()));
 
     return svg;
   }
 
-  /* ── Panel detaliu cameră ────────────────────────── */
-  function showRoomPanel(n, p1, p2, dormLabel) {
-    var lang = (typeof getLang === 'function') ? getLang() : 'ro';
-    var isSingle = !p2 || p2.trim() === '';
-    var panel = document.getElementById('room-detail-panel');
-    if (!panel) return;
+  /* ── Room detail panel ── */
+  function showRoomPanel(room, dormLabel) {
+    var lang=getLang_fp();
+    var panel=document.getElementById('room-detail-panel'); if(!panel) return;
+    var isSingle=!room.p2||room.p2.trim()==='';
+    var singleLbl=lang==='en'?'Single occupancy':'Cameră single';
+    var roomLbl=lang==='en'?'Room':'Camera';
+    var personIco='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--eu-blue)" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
+    var occupants=[room.p1,room.p2,room.p3].filter(function(p){return p&&p.trim();});
 
-    var roomLbl   = lang === 'en' ? 'Room' : 'Camera nr.';
-    var singleLbl = lang === 'en' ? 'Single occupancy' : 'Cameră single';
-    var personIco = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--eu-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
-
-    panel.innerHTML =
-      '<button class="panel-close" onclick="closeRoomPanel()" aria-label="Închide">' +
-        '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>' +
-      '</button>' +
-      '<div class="room-panel-inner">' +
-        '<div class="room-panel-header">' +
-          '<div class="room-panel-num">' + String(n).padStart(2,'0') + '</div>' +
-          '<div class="room-panel-meta">' +
-            '<div class="room-panel-dorm">' + dormLabel + '</div>' +
-            '<div class="room-panel-title">' + roomLbl + ' ' + n + '</div>' +
-          '</div>' +
-        '</div>' +
-        '<div class="room-occupant"><div class="room-occupant-icon">' + personIco + '</div>' +
-          '<div class="room-occupant-name">' + p1 + '</div></div>' +
-        (isSingle
-          ? '<div class="room-single-badge">' +
-              '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>' +
-              ' ' + singleLbl + '</div>'
-          : '<div class="room-occupant"><div class="room-occupant-icon">' + personIco + '</div>' +
-              '<div class="room-occupant-name">' + p2 + '</div></div>'
-        ) +
+    panel.innerHTML=
+      '<button class="panel-close" onclick="closeRoomPanel()" aria-label="Închide">'+
+        '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>'+
+      '</button>'+
+      '<div class="room-panel-inner">'+
+        '<div class="room-panel-header">'+
+          '<div class="room-panel-num">'+room.n+'</div>'+
+          '<div class="room-panel-meta">'+
+            '<div class="room-panel-dorm">'+dormLabel+'</div>'+
+            '<div class="room-panel-title">'+roomLbl+' '+room.n+'</div>'+
+          '</div>'+
+        '</div>'+
+        (room.unoccupied
+          ? '<p style="font-size:.82rem;color:var(--text-secondary);font-style:italic;padding:.5rem 0;margin:0">'+(lang==='en'?'Reserved / unoccupied.':'Rezervată / neocupată.')+'</p>'
+          : occupants.map(function(p){
+              return '<div class="room-occupant"><div class="room-occupant-icon">'+personIco+'</div>'+
+                     '<div class="room-occupant-name">'+p+'</div></div>';
+            }).join('')+
+            (isSingle?'<div class="room-single-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> '+singleLbl+'</div>':'')
+        )+
       '</div>';
   }
 
-  /* ── Funcții globale ─────────────────────────────── */
+  /* ── Global functions ── */
   window.closeRoomPanel = function() {
-    var lang = (typeof getLang === 'function') ? getLang() : 'ro';
-    var panel = document.getElementById('room-detail-panel');
-    if (panel) panel.innerHTML = '<p class="group-panel-hint">' +
-      (lang === 'en' ? 'Click on a room' : 'Apasă pe o cameră') + '</p>';
-    document.querySelectorAll('.fp-room.fp-sel').forEach(function(r) {
+    var lang=getLang_fp();
+    var panel=document.getElementById('room-detail-panel');
+    if(panel) panel.innerHTML='<p class="group-panel-hint">'+(lang==='en'?'Click on a room':'Apasă pe o cameră')+'</p>';
+    document.querySelectorAll('.fp-room.fp-sel').forEach(function(r){
       r.classList.remove('fp-sel');
-      var bg = r.querySelector('.fpr-bg');
-      var nm = r.querySelector('.fpr-num');
-       if (bg) bg.setAttribute('fill', bg.getAttribute('data-gfill') || 'white');
-      if (nm) nm.setAttribute('fill', '#1a3270');
-      r.querySelectorAll('.fpr-dot').forEach(function(d){ d.setAttribute('fill', '#2c4580'); });
+      var rb=r.querySelector('.fpr-bg'), nm=r.querySelector('.fpr-num');
+      if(rb) rb.setAttribute('fill',rb.getAttribute('data-gfill')||'white');
+      if(nm) nm.setAttribute('fill','#1a3270');
+      r.querySelectorAll('.fpr-dot').forEach(function(d){d.setAttribute('fill','#2c4580');});
     });
   };
 
   window.switchDorm = function(btn, dormId) {
-    var sec = document.getElementById('camere');
-    if (sec) sec.querySelectorAll('.part-tab').forEach(function(t){
-      t.classList.remove('active');
-      t.setAttribute('aria-selected','false');
+    var sec=document.getElementById('camere');
+    if(sec) sec.querySelectorAll('.part-tab').forEach(function(t){
+      t.classList.remove('active'); t.setAttribute('aria-selected','false');
     });
-    btn.classList.add('active');
-    btn.setAttribute('aria-selected','true');
-    var c = document.getElementById('fp-container');
-    if (c) { c.innerHTML = ''; c.appendChild(renderFloorPlan(dormId)); }
+    btn.classList.add('active'); btn.setAttribute('aria-selected','true');
+    var c=document.getElementById('fp-container');
+    if(c){ c.innerHTML=''; c.appendChild(renderFloorPlan(dormId, _fpFloor[dormId]||0)); }
     closeRoomPanel();
   };
 
-  /* ── Init ────────────────────────────────────────── */
-  function init() {
-    var c = document.getElementById('fp-container');
-    if (c) { c.innerHTML = ''; c.appendChild(renderFloorPlan('camelia')); }
-  }
+  window.switchFloor = function(dormId, floorIdx) {
+    var c=document.getElementById('fp-container');
+    if(c){ c.innerHTML=''; c.appendChild(renderFloorPlan(dormId, floorIdx)); }
+    closeRoomPanel();
+  };
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
+  /* ── Init ── */
+  function init() {
+    var c=document.getElementById('fp-container');
+    if(c){ c.innerHTML=''; c.appendChild(renderFloorPlan('camelia',0)); }
   }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init);
+  else init();
 
 })();
 </script>
