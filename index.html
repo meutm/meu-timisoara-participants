@@ -4478,50 +4478,63 @@ if (waBtn) {
    ═══════════════════════════════════════════════════ */
 (function () {
 
-  var DORM = {
-    camelia: {
-      label: 'Camelia', showNames: false,
-floors: [
-        {
-          id:'f1', label:{ro:'Etaj 1 — Fete', en:'Floor 1 — Female'},
-          rooms:[
-            {n:'121', p1:'Vivian Eva Zaharia',   p2:'Miruna Cornescu',      p3:'', gender:'female'},
-            {n:'124', p1:'Lorena Gomez Rubiato', p2:'Emma Guillen',         p3:'', gender:'female'},
-            {n:'125', p1:'Arabella Laveneziana', p2:'Diana Georgiana Barău',p3:'', gender:'female'}
-          ]
-        },
-        {
-          id:'f2', label:{ro:'Etaj 2 — Băieți', en:'Floor 2 — Male'},
-          rooms:[
-            {n:'221', p1:'Olaf Piasta',          p2:'Maksymilian Manchura', p3:'', gender:'male'},
-            {n:'222', p1:'Daniel Nunes',          p2:'Rodrigo Moreira',      p3:'', gender:'male'},
-            {n:'223', p1:'Bartosz Szybiak',       p2:'Maxence Bouhours',     p3:'', gender:'male'},
-            {n:'224', p1:'Matheo Pauwels',        p2:'Jules Breant',         p3:'', gender:'male'},
-            {n:'225', p1:'Mateusz Mielcarz',      p2:'Eric Moraru',          p3:'', gender:'male'}
-          ]
-        },
-        {
-          id:'f3', label:{ro:'Etaj 3 — Băieți', en:'Floor 3 — Male'},
-          rooms:[
-            {n:'321', p1:'Dumitru David',         p2:'Sergio Perez Lopez',   p3:'', gender:'male'},
-            {n:'322', p1:'Leonardo Cutelle',      p2:'Giuseppe de Vincenzo', p3:'', gender:'male'},
-            {n:'323', p1:'Llorenc Hinajeros',     p2:'Felix Moore',           p3:'', gender:'male'},
-            {n:'324', p1:'Vitor Andrade Andre',   p2:'Nuno Costa',           p3:'', gender:'male'},
-            {n:'325', p1:'Daniel Tielas',         p2:'Ferran Fuentes Romero',p3:'', gender:'male'}
-          ]
-        },
-        {
-          id:'f4', label:{ro:'Etaj 4', en:'Floor 4'},
-          rooms:[
-            {n:'M16', p1:'Roberta Parella',       p2:'Caterina Cavion',      p3:'', gender:'female'},
-            {n:'M17', p1:'Letizia Bianchi',       p2:'Alexandra Cazan',      p3:'', gender:'female'},
-            {n:'M18', p1:'Elleonore Nohan',       p2:'Elodie Michel',        p3:'', gender:'female'},
-            {n:'M19', p1:'Michalina Rosin',       p2:'Nikola Zak',           p3:'', gender:'male'},
-            {n:'M20', p1:'Alexandru Butaru',      p2:'Ruben Lopez Garcia',   p3:'', gender:'male'}
-          ]
-        }
-      ]
-    },
+var DORM = {
+  camelia: {
+    label: 'Camelia', showNames: false,
+    floors: [
+      {
+        id:'f1', label:{ro:'Etaj 1 — Fete', en:'Floor 1 — Female'},
+        rooms:[
+          {n:'121', p1:'Vivian Eva Zaharia',    p2:'Miruna Cornescu',       p3:'', gender:'female'},
+          {n:'124', p1:'Lorena Gomez Rubiato',  p2:'Emma Guillen',          p3:'', gender:'female'},
+          {n:'125', p1:'Arabella Laveneziana',  p2:'Diana Georgiana Barău', p3:'', gender:'female'}
+        ]
+      },
+      {
+        id:'f2', label:{ro:'Etaj 2 — Băieți', en:'Floor 2 — Male'},
+        rooms:[
+          {n:'221', p1:'Olaf Piasta',           p2:'Maksymilian Manchura',  p3:'', gender:'male'},
+          {n:'222', p1:'Daniel Nunes',           p2:'Rodrigo Moreira',       p3:'', gender:'male'},
+          {n:'223', p1:'Bartosz Szybiak',        p2:'Maxence Bouhours',      p3:'', gender:'male'},
+          {n:'224', p1:'Matheo Pauwels',         p2:'Jules Breant',          p3:'', gender:'male'},
+          {n:'225', p1:'Mateusz Mielcarz',       p2:'Eric Moraru',           p3:'', gender:'male'}
+        ]
+      },
+      {
+        id:'f3', label:{ro:'Etaj 3 — Băieți', en:'Floor 3 — Male'},
+        rooms:[
+          {n:'321', p1:'Dumitru David',          p2:'Sergio Perez Lopez',    p3:'', gender:'male'},
+          {n:'322', p1:'Leonardo Cutelle',       p2:'Giuseppe de Vincenzo',  p3:'', gender:'male'},
+          {n:'323', p1:'Llorenc Hinajeros',      p2:'Felix Moore',            p3:'', gender:'male'},
+          {n:'324', p1:'Vitor Andrade Andre',    p2:'Nuno Costa',            p3:'', gender:'male'},
+          {n:'325', p1:'Daniel Tielas',          p2:'Ferran Fuentes Romero', p3:'', gender:'male'}
+        ]
+      },
+      {
+        id:'f4', label:{ro:'Etaj 4', en:'Floor 4'},
+        rooms:[
+          {n:'M16', p1:'Roberta Parella',        p2:'Caterina Cavion',       p3:'', gender:'female'},
+          {n:'M17', p1:'Letizia Bianchi',        p2:'Alexandra Cazan',       p3:'', gender:'female'},
+          {n:'M18', p1:'Elleonore Nohan',        p2:'Elodie Michel',         p3:'', gender:'female'},
+          {n:'M19', p1:'Michalina Rosin',        p2:'Nikola Zak',            p3:'', gender:'male'},
+          {n:'M20', p1:'Alexandru Butaru',       p2:'Ruben Lopez Garcia',    p3:'', gender:'male'}
+        ]
+      }
+    ]
+  },
+  fitt: {
+    label: 'FITT', showNames: false,
+    floors: [
+      {
+        id:'f1', label:{ro:'Camere', en:'Rooms'},
+        rooms:[
+          {n:'1', p1:'Albin Mixhati',       p2:'Priam Llalla',           p3:'Matthew Murnaghan',      gender:'male'},
+          {n:'2', p1:'Stefanija Labroska',  p2:'Aleksandra Angelova',    p3:'Bibiana Shanks-Davison', gender:'female'}
+        ]
+      }
+    ]
+  }
+};
     fitt: {
       label: 'FITT', showNames: false,
       floors: [
